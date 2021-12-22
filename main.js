@@ -17,9 +17,12 @@
 new Vue({
     el: '#app',
     data: {
-      styleObject:{
+      styleObject: {
         color: 'red',
         'background-color': 'blue'
-      }
+        },
+        baseStyles: {
+            fontSize: '60px'
+        }
     }
 })
